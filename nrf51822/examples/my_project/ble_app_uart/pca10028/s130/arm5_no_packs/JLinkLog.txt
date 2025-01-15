@@ -1,0 +1,37 @@
+TA894 003:740.931   SEGGER J-Link V7.56 Log File
+TA894 003:741.623   DLL Compiled: Oct  7 2021 16:08:24
+TA894 003:741.626   Logging started @ 2024-11-28 06:28
+TA894 003:741.629 - 3741.631ms
+TA894 003:741.638 JLINK_SetWarnOutHandler(...)
+TA894 003:741.642 - 0.005ms
+TA894 003:741.646 JLINK_OpenEx(...)
+TA894 003:743.099   
+  ***** Error: 
+TA894 003:743.109   Cannot connect to J-Link.
+TA894 003:759.512 - 17.876ms returns "Cannot connect to J-Link."
+TA894 003:759.745 
+  ***** 
+TA894 003:759.752 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+TA894 003:759.759 JLINK_GetHardwareVersion()
+TA894 003:774.092 - 14.343ms
+TA894 005:642.170 JLINK_IsOpen()
+TA894 005:642.201 - 0.035ms returns 0x00
+TA894 005:642.221 JLINK_EMU_SelectByUSBSN(SerialNo = 0)
+TA894 005:642.966 - 0.752ms returns 0xFFFFFFFF
+TA894 005:642.979 JLINK_EnableLog(...)
+TA894 005:642.986 - 0.009ms
+TA894 005:642.993 JLINK_SetLogFile(...)
+TA894 005:643.001 - 0.011ms
+TA894 005:643.009 JLINK_SetWarnOutHandler(...)
+TA894 005:643.015 - 0.008ms
+TA894 005:643.022 JLINK_OpenEx(...)
+TA894 005:659.050 - 16.036ms returns "Failed to open DLL"
+TA894 005:659.676 
+  ***** 
+TA894 005:659.685 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+TA894 005:659.692 JLINK_GetHardwareVersion()
+TA894 005:674.285 - 14.600ms
+TA894 142:899.045 JLINK_Close()
+TA894 142:899.143 - 0.099ms
+TA894 142:899.147   
+TA894 142:899.150   Closed
