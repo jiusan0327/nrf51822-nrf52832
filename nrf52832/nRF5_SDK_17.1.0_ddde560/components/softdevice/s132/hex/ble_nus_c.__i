@@ -1,0 +1,5 @@
+--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\config --reduce_paths
+-I.\RTE\_flash_s132_nrf52_7.2.0_softdevice
+-IC:\keil_pack\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include
+-D__UVISION_VERSION="536" -D_RTE_ -DNRF52832_XXAA -D_RTE_ -D__HEAP_SIZE="0" -D__STACK_SIZE="8192"
+-o ..\..\..\..\..\..\components\softdevice\s132\hex\ble_nus_c.o --omf_browse ..\..\..\..\..\..\components\softdevice\s132\hex\ble_nus_c.crf --depend ..\..\..\..\..\..\components\softdevice\s132\hex\ble_nus_c.d "..\..\..\..\..\..\components\ble\ble_services\ble_nus_c\ble_nus_c.c"
